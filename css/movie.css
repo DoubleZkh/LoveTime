@@ -61,3 +61,16 @@ ul li:hover{
     width: 396px;
 }
 
+/*返回主页样式*/
+.back{
+    width: 453px;
+    height: 48px;
+    position: fixed;
+    top: 90%;
+    left: 0;
+    color: #ffffff;
+    font-family:"华文行楷";
+    font-size: 30px;
+    line-height: 48px;
+    float: left;
+}
