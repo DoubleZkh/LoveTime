@@ -13,8 +13,35 @@ body{
     height: 500px;
     background-color: rgba(0, 0, 0, 0.7);
     margin: 160px auto;
+    position: relative;
 }
-
+/*导航样式*/
+.nav{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #242424;
+}
+.nav span{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: "华文行楷";
+    color: #5a5a5a;
+}
+.nav span:hover{
+    background-color: #606060;
+}
+.nav span a{
+    color: #ffffff;
+    text-decoration: none;
+}
 /*加载层样式 开始*/
 .loading{
     width: 100%;
