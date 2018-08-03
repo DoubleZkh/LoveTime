@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;padding:0
+}
+body{
+    background: url(../images/bj.png) center top ;
+    background-size: cover;
+}
+/*计时器 开始*/
+.Timebox{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 160px auto;
+}
+
+/*加载层样式 开始*/
+.loading{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 100;
+    background-color: #ffc0c2;
+}
+.loading .pic{
+    width: 500px;
+    height: 500px;
+    background: url(../images/loding.gif);
+    position: absolute;
+    top: 0; bottom: 0;  left: 0;    right: 0;
+    margin: auto;
+}
+.loading .pic p{
+    font:40px "华文行楷" ;
+    margin: 65px auto;
+    color: #c7efcf;
+}
+.into{
+    display:inline-block;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    top: 0; bottom: 0;  left: 0;    right: 0;
+    position: absolute;
+    z-index: 1000;
+    /*background: url(../images/into.gif);*/
+}
+/*加载层样式 结束*/
