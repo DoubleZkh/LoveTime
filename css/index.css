@@ -6,23 +6,45 @@
 body{
     background: url(../images/bj.png) center top ;
     background-size: cover;
+    color: #ffffff;
+    font-family: "hanYiyy";
+}
+/*字体*/
+@font-face {
+    font-family: 'hanYiyy';
+    src: url("../font/font.ttf");
 }
 /*计时器 开始*/
 .Timebox{
     width: 900px;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.7);
-    margin: 160px auto;
+    margin: 160px auto 0;
     position: relative;
+}
+/*计时器内文字样式*/
+.Timebox div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    /*font-family: "hanYiyy";*/
+    font-size: 110px;
+    color: #f4f9f4;
+    text-align: center;
+    line-height: 250px;
+}
+#time{
+    /*font-family: "hanYiyy";*/
+    font-size: 110px;
+    color: #f4f9f4;
+    text-align: center;
 }
 /*导航样式*/
 .nav{
-    width: 400px;
+    width: 440px;
     height: 50px;
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #242424;
 }
 .nav span{
     display: inline-block;
@@ -32,8 +54,9 @@ body{
     text-align: center;
     line-height: 50px;
     font-size: 30px;
-    font-family: "华文行楷";
+    /*font-family: "hanYiyy";*/
     color: #5a5a5a;
+    margin-right: 10px;
 }
 .nav span:hover{
     background-color: #606060;
@@ -60,7 +83,7 @@ body{
     margin: auto;
 }
 .loading .pic p{
-    font:40px "华文行楷" ;
+    /*font:40px "华文行楷" ;*/
     margin: 65px auto;
     color: #c7efcf;
 }
@@ -75,3 +98,13 @@ body{
     /*background: url(../images/into.gif);*/
 }
 /*加载层样式 结束*/
+/*底部文字txt*/
+.txt{
+    width: 1250px;
+    height: 110px;
+    /*font-family: "hanYiyy";*/
+    font-size: 30px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
